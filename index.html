@@ -5,17 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Math Quiz</title>
-
-    <h1>Math Quiz Challlenge</h1>
+    <link rel="stylesheet" href="./CSS/Homework-4.css">
+    <h1>Math Quiz Challenge</h1>
 </head>
 
 <body>
 
-    <p>Test your basic math skills now! 60 seconds to answer all questions - Each wrong answer will decrease your
-        remaining time by 5 seconds! </p>
+    <div id="content">
 
-    <button>Start Quiz!</button>
+        <p>Test your basic math skills now! 60 seconds to answer all questions - Each wrong answer will decrease your
+            remaining time by 5 seconds! </p>
+        <button id="startQuiz">Start Quiz!</button>
+    </div>
 
+    <div id="quizContent" style="display: none;">
+        <h3 id="timer"> </h3>
+        <h2 id="questions"> </h2>
+        <button id="button1"> </button>
+        <button id="button2"> </button>
+        <button id="button3"> </button>
+        <button id="button4"> </button>
+        <br>
+        <h4 id="status"></h4>
+        <br>
+        <div id="scoretext"> </div>
+    </div>
+
+    <script src="./JS/Homework-4.js"></script>
 </body>
 
 </html>
